@@ -1,0 +1,60 @@
+body{
+    background-image: url("./back1.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: #563d7c;
+    color: #fff;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 8px;
+} 
+
+nav li a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+.search{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+
+}
+.search .submit{
+    background: #B9DFFF;
+    left: 10%
+}
+.label{
+    color: #fff;
+}
+.container{
+    position: absolute;
+    top: 45%;
+}
+
+
+
+
+
+
+
+
+
+
